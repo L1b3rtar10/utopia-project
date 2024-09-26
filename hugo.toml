@@ -1,0 +1,123 @@
+# THIS IS AN EXAMPLE ON HOW YOU SHOULD CONFIGURE YOUR hugo.toml
+# See this hugo.toml in action at https://github.com/1bl4z3r/hermit-V2/blob/staging/hugo.toml
+# Example Site is Staging branch, acessible at https://github.com/1bl4z3r/hermit-V2/tree/staging
+# To see what each config does, refer to https://1bl4z3r.github.io/hermit-V2/en/posts/explaining-configs/
+# Open Issue or Pull Request at https://github.com/1bl4z3r/hermit-V2
+
+baseURL = "https://utopianproject.it"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+theme = "hermit-v2"
+
+#[languages]
+#  [languages.en]
+    title = 'UTOPIA PROJECT'
+    [languages.en.params]
+      homeSubtitle = "\"If you don’t believe it or don’t get it, I don’t have the time to try to convince you, sorry.\" Satoshi Nakamoto"
+    weight = 1
+#  [languages.fr]
+#    title = 'CHANGE ME(FR)'
+#    [languages.fr.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 2
+  [languages.it]
+    title = 'UTOPIA PROJECT'
+    [languages.it.params]
+      homeSubtitle = "Se non ci credi o non lo capisci, non ho tempo per provare a convincerti, scusa."
+    weight = 3
+ 
+languageCode = "en-us"
+
+title = "CHANGE ME"
+enableGitInfo = true
+
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+#hasCJKLanguage = true
+
+rssLimit = 10
+
+copyright = "(CC BY-NC 4.0)"
+enableEmoji = true
+
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "CHANGE ME"
+
+[params.author]
+  name = "smettoquandovoglio"
+# about = "A random italian dude"
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+  # category = "categories"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  description = "Guida non esaustiva a Bitcoin e alla sua filosofia"
+  # images = [""]
+  themeColor = "#494f5c"
+
+  #homeSubtitle = "CHANGE ME HOME SUBTITLE"
+  footerCopyright = "CC BY-NC 4.0"
+  # bgImg = ""
+  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+
+  justifyContent = false
+
+  relatedPosts = true
+  code_copy_button = true
+
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  readTime = true
+  readTimeSeparator = "CHANGE ME READ TIME"
+  # legacyLayout = false
+  shareSocial = true
+  # googleTagManager = "GTM-XXXXXXXX"
+  # tagSymbol = "#"
+  # categorySymbol = "⊲"
+  
+  [[params.socialLinks]]
+    name = "mastodon"
+    url = "https://joinmastodon.org/"
+
+  [[params.socialLinks]]
+    name = "x"
+    url = "https://twitter.com/"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+
+[menu]
+
+  [[menu.main]]
+    name = "Scopo del progetto"
+    url = "purpose/"
+    weight = 5
+
+  [[menu.main]]
+    name = "Filosofia Bitcoin"
+    url = "philosophy/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Tecnica Bitcoin"
+    url = "technical/"
+    weight = 15
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
