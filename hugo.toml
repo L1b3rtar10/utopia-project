@@ -4,8 +4,8 @@
 # To see what each config does, refer to https://1bl4z3r.github.io/hermit-V2/en/posts/explaining-configs/
 # Open Issue or Pull Request at https://github.com/1bl4z3r/hermit-V2
 
-baseURL = "https://utopianproject.it"
-defaultContentLanguage = "en"
+#baseURL = "https://l1b3rtar10.github.io/utopia-project/"
+defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = true
 theme = "hermit-v2"
 
@@ -23,12 +23,12 @@ theme = "hermit-v2"
   [languages.it]
     title = 'UTOPIA PROJECT'
     [languages.it.params]
-      homeSubtitle = "Se non ci credi o non lo capisci, non ho tempo per provare a convincerti, scusa."
+      homeSubtitle = "\"If you don’t believe it or don’t get it, I don’t have the time to try to convince you, sorry.\" Satoshi Nakamoto"
     weight = 3
  
 languageCode = "en-us"
 
-title = "CHANGE ME"
+title = "Utopia - un progetto italiano"
 enableGitInfo = true
 
 pygmentsCodefences  = true
@@ -63,7 +63,7 @@ enableEmoji = true
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
-  description = "Guida non esaustiva a Bitcoin e alla sua filosofia"
+  description = "Utopia - un progetto italiano"
   # images = [""]
   themeColor = "#494f5c"
 
@@ -78,44 +78,44 @@ enableEmoji = true
   code_copy_button = true
 
   homeSubtitlePrinter = true
+  homeTitlePrinter = false
   scrollToTop = true 
   global_mathjax = false
   readTime = true
   readTimeSeparator = "CHANGE ME READ TIME"
   # legacyLayout = false
-  shareSocial = true
+  shareSocial = false
   # googleTagManager = "GTM-XXXXXXXX"
   # tagSymbol = "#"
   # categorySymbol = "⊲"
   
-  [[params.socialLinks]]
-    name = "mastodon"
-    url = "https://joinmastodon.org/"
+  #[[params.socialLinks]]
+  #  name = "mastodon"
+  #  url = "https://joinmastodon.org/"
 
-  [[params.socialLinks]]
-    name = "x"
-    url = "https://twitter.com/"
+  #[[params.socialLinks]]
+  #  name = "x"
+  #  url = "https://twitter.com/"
 
-  [[params.socialLinks]]
-    name = "github"
-    url = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+  #[[params.socialLinks]]
+  #  name = "github"
+  #  url = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 
 [menu]
-
   [[menu.main]]
-    name = "Scopo del progetto"
-    url = "purpose/"
-    weight = 5
+    name = "Manifesto"
+    url = "manifesto/"
+    weight = 1
 
   [[menu.main]]
     name = "Filosofia Bitcoin"
     url = "philosophy/"
     weight = 10
 
-  [[menu.main]]
-    name = "Tecnica Bitcoin"
-    url = "technical/"
-    weight = 15
+  #[[menu.main]]
+  #  name = "Tecnica Bitcoin"
+  #  url = "technical/"
+  #  weight = 15
 
   [[menu.main]]
     name = "About"

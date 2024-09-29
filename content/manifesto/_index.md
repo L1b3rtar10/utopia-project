@@ -1,4 +1,10 @@
-# Progetto Utopia
+---
+title: "Manifesto"
+layout: "single" # Specifies the layout to use for this list page
+author: "smettoquandovoglio"
+categories: 
+  - Manifesto
+---
 
 ## Cos'è Utopia? ##
 
@@ -35,7 +41,7 @@ Utopia è in evoluzione, in futuro potrà avere diverse forme.
 1. Seguire le istruzioni per scaricare il codice sorgente e fare modifiche
 2. Proporre le proprie modifiche per l'approvazione
 
-### Contattami ###
+## Contattami ##
 
-[Mail](mailto:smettoquandovoglio@proton.me)
+[smettoquandovoglio@proton.me](smettoquandovoglio@proton.me)
  

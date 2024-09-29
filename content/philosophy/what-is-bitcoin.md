@@ -2,7 +2,7 @@
 title: "Cos'è Bitcoin?"
 slug : "what-is-bitcoin"
 date: 2024-09-26T00:00:00Z
-draft: false
+draft: true
 featuredImg: ""
 description : 'Bitcoin: what is it?'
 #tags: 
