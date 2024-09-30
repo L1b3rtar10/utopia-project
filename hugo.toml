@@ -5,8 +5,8 @@
 # Open Issue or Pull Request at https://github.com/1bl4z3r/hermit-V2
 
 #baseURL = "https://l1b3rtar10.github.io/utopia-project/"
-defaultContentLanguage = "it"
-defaultContentLanguageInSubdir = true
+#defaultContentLanguage = "it"
+#defaultContentLanguageInSubdir = false
 theme = "hermit-v2"
 
 #[languages]
