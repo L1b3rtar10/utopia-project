@@ -9,6 +9,8 @@
 #defaultContentLanguageInSubdir = false
 theme = "hermit-v2"
 
+relativeURLs = true
+
 #[languages]
 #  [languages.en]
     title = 'UTOPIA PROJECT'
