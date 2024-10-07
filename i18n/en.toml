@@ -21,7 +21,7 @@ other = "See Also"
 other = "{{ .WordCount }} Words"
 
 [tableOfContents]
-other = "Table of Contents"
+other = "Quick links"
 
 [newer]
 other = "Newer"

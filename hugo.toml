@@ -13,7 +13,7 @@ relativeURLs = true
 
 #[languages]
 #  [languages.en]
-    title = 'UTOPIA PROJECT'
+    title = 'utopia project'
     [languages.en.params]
       homeSubtitle = "\"If you don’t believe it or don’t get it, I don’t have the time to try to convince you, sorry.\" Satoshi Nakamoto"
     weight = 1
@@ -71,8 +71,8 @@ enableEmoji = true
 
   #homeSubtitle = "CHANGE ME HOME SUBTITLE"
   footerCopyright = "CC BY-NC 4.0"
-  # bgImg = ""
-  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+  bgImg = "images/manifesto_bg.jpg"
+  gitUrl = "https://github.com/L1b3rtar10/utopia-project"
 
   justifyContent = false
 
@@ -84,7 +84,7 @@ enableEmoji = true
   scrollToTop = true 
   global_mathjax = false
   readTime = true
-  readTimeSeparator = "CHANGE ME READ TIME"
+  readTimeSeparator = "read time:"
   # legacyLayout = false
   shareSocial = false
   # googleTagManager = "GTM-XXXXXXXX"
@@ -114,10 +114,10 @@ enableEmoji = true
     url = "philosophy/"
     weight = 10
 
-  #[[menu.main]]
-  #  name = "Tecnica Bitcoin"
-  #  url = "technical/"
-  #  weight = 15
+  [[menu.main]]
+    name = "Tecnica Bitcoin"
+    url = "technical/"
+    weight = 15
 
   [[menu.main]]
     name = "About"

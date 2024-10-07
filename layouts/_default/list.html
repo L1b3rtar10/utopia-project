@@ -7,7 +7,7 @@
 		<h1>{{ .Title }}</h1>
 		{{- if .Content }}
 		<div class="content">
-			{{ .Content }}
+			{{ .Title }}
 		</div>
 		{{- end }}
 		{{- range .Data.Pages.GroupByDate "2006" }}
@@ -25,6 +25,28 @@
 			</ul>
 		</div>
 		{{- end }}
+		<section class="chapter-suggestions"></section>
+			{{ with .Params.chapters }}
+				<div class="posts-group">
+					<div class="post-year">In arrivo<sup>*</sup></div>
+					<ul class="posts-list">
+						{{ range . }}
+						<li class="post-item">
+							<span class="post-title">{{.title}}</span>
+							<span class="post-description"> - {{.description}}</span>
+							<span class="post-day"><a href="/submit/{{ .title | urlize }}">Write This Chapter</a></span>
+						</li>
+						{{- end }}
+					</ul>
+					</div>
+				</div>
+			  {{ else }}
+      			<p>No chapter suggestions available.</p>
+			{{ end }}
+			<h2><sup>*</sup>Aiutaci a creare Utopia!</h2>
+			<p>In Utopia hai la possibilità di creare contenuti e monetizzare usando lightning network.
+				Di seguito vengono proposti alcuni capitoli disponibili. Scegline uno e proponi il tuo pezzo.</p>
+		</section>
 	</main>
 {{ end }}
 

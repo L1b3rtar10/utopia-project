@@ -1,7 +1,14 @@
 ---
 title: "Manifesto"
+slug : "manifesto"
+date: 2024-09-26
+draft: false
+featuredImg: "manifesto_bg.jpg"
+description : "Il progetto Utopia"
 layout: "single" # Specifies the layout to use for this list page
 author: "smettoquandovoglio"
+lnAddress: bc1p4dldd4kuwkt28w8km4y344x7l80w853mpzuhshyq2x4ll5ut86zss9h24y
+author : smettoquandovoglio
 categories: 
   - Manifesto
 ---
@@ -43,5 +50,5 @@ Utopia è in evoluzione, in futuro potrà avere diverse forme.
 
 ## Contattami ##
 
-[smettoquandovoglio@proton.me](smettoquandovoglio@proton.me)
+[smettoquandovoglio@proton.me](mailto:smettoquandovoglio@proton.me)
  

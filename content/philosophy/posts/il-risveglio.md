@@ -7,6 +7,7 @@ featuredImg: ""
 description : 'Quella strana sensazione di disagio'
 tags: 
   - Bitcoin
+lnAddress: smettoquandovoglio@utopia-project.it
 author : smettoquandovoglio
 scrolltotop : true
 toc : false
